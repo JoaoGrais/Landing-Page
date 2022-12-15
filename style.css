@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient( to right, #daa520, #000900);
+    color: goldenrod;
+}
+
+header{
+    background-color: black;
+    color: goldenrod;
+}
+
+#logo{
+    width: 90px; 
+}
+
+.flexbox{
+    margin-top: 3% ;
+    display: flex;
+    margin-left: 8%;
+    
+}
+
+.box1{ 
+    text-align: center;
+    width: 450px;
+    height: 480px;
+    background-color: black;
+    box-shadow: 18px 18px 18px black;
+}
+
+.box2{
+    width: 550px;
+    height: 480px;
+    background-color: black;
+    box-shadow: 18px 18px 18px black;
+}
+
+#car{
+    width: 130%;
+    height: 100%;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 17px;
+    text-align: justify;
+    margin: 15px;
+    padding-bottom: 30px;
+}
+
+h2{
+    color: white;
+    margin-top: 14px;
+    text-align: center;
+}
+
+li{
+    color: white;
+    list-style: none ;
+    margin-top:  10px;
+    margin-left: 25px;
+}
+
+a{
+    border-radius: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #daa520, #000900);
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
